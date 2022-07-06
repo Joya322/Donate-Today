@@ -24,3 +24,30 @@ body {
   top: 0;
   left: 0;
 }
+
+.banner-intro {
+  position: absolute;
+  padding: 12% 20%;
+  text-align: center;
+  color: #ffffff;
+}
+.banner-intro h1 {
+  font-weight: 700;
+  font-size: 65px;
+  margin-bottom: 20px;
+}
+.banner-intro p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  padding: 0px 10%;
+  margin-bottom: 40px;
+}
+.btn a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #ff5959;
+  width: 160px;
+  height: 56px;
+  padding: 16px 12px;
+  border-radius: 5px;
+}
