@@ -72,15 +72,16 @@ p {
 .donate-today p {
   margin-bottom: 50px;
 }
-.donation-amount {
+.donate-today .donation-amount {
   display: flex;
   flex-wrap: wrap;
   gap: 22px;
   border-radius: 5px;
-  padding: 10px;
+  
+  margin-bottom: 60px;
 }
 .donation-amount .amount {
-  width: 135px;
+  width: 136px;
   height: 123px;
   background-color: #fafafa;
   display: flex;
@@ -94,10 +95,25 @@ p {
 }
 
 .donation-amount #active-b {
-  border: 1px solid #ff5959;
+  border: 2px solid #ff5959;
   background-color: #ffeeee;
 }
 
 .donation-amount .amount #active-c {
   color: #ff5959;
+}
+#tk {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid #DADADA;
+  outline: none;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+::placeholder{
+  color: #B3B3B3;
+  opacity: 1;
+  font-size: 18px;
 }
