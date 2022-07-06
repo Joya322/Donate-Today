@@ -6,19 +6,21 @@
 body {
   text-align: center;
 }
-section {
+section{
+  height: auto;
   margin-bottom: 130px;
+  /* border: 2px solid red; */
 }
 .center {
-  margin: auto auto;
+  margin: auto;
   width: 60%;
 }
 h1 {
-  font-family: "Inter", sans-serif;
   font-size: 65px;
 }
 h2 {
   font-size: 45px;
+  color: #121212;
 }
 
 h1,
@@ -32,6 +34,7 @@ p {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   color: #707070;
+  padding: 0px 10%;
 }
 #banner {
   background-image: linear-gradient(
@@ -46,16 +49,16 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
+  color: #ffffff;
 }
 .banner-intro {
-  color: #ffffff;
+  /* color: #ffffff; */
 }
 /* .banner-intro h1 {
   margin-bottom: 20px;
 } */
 .banner-intro p {
   color: #ffffff;
-  padding: 0px 10%;
   margin-bottom: 30px;
 }
 .btn {
@@ -69,20 +72,24 @@ p {
   text-decoration: none;
   color: #ffffff;
 }
+
+/* .donate-today{
+  margin-bottom: 130px;
+} */
 .donate-today p {
   margin-bottom: 50px;
 }
 .donate-today .donation-amount {
   display: flex;
   flex-wrap: wrap;
-  gap: 22px;
   border-radius: 5px;
-  
-  margin-bottom: 60px;
+  margin-bottom: 50px;
+  justify-content: space-evenly;
 }
 .donation-amount .amount {
-  width: 136px;
+  width: 135px;
   height: 123px;
+  
   background-color: #fafafa;
   display: flex;
   align-items: center;
@@ -95,11 +102,11 @@ p {
 }
 
 .donation-amount #active-b {
-  border: 2px solid #ff5959;
-  background-color: #ffeeee;
+  border: 2px solid #FF5959;
+  background-color: #FFEEEE;
 }
 
-.donation-amount .amount #active-c {
+.donation-amount .amount #amount3 {
   color: #ff5959;
 }
 #tk {
@@ -116,4 +123,7 @@ p {
   color: #B3B3B3;
   opacity: 1;
   font-size: 18px;
+}
+.donate-plan p{
+  margin-bottom: 50px;
 }
