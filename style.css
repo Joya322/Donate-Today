@@ -152,21 +152,39 @@ p {
   padding-top: 60px;
   padding-left: 23px;
 }
-.card .content{
-  margin-left: 23px;
+.card .card-content{
+  /* margin-left: 23px; */
   font-family: "Poppins", sans-serif;
 }
-.content h6{
+.card-content h6{
   font-size: 24px;
   font-weight: 600px;
   color: #121212;
   padding-top: 31px;
   margin-bottom: 16px;
-  padding-left: 22px;
+  padding: 25px;
+  padding-bottom: 0;
 }
-.content p{
+.card-content p{
   font-size: 16px;
   padding-right: 0;
-  padding-left: 22px;
+  padding: 25px;
   
+}
+footer{
+  background: #0B0D17;
+}
+
+footer h4{
+  font-family: 'Lobster', cursive;
+  font-size: 36px;
+  color: #FF5959;
+  padding-top: 43px;
+  margin-bottom: 25px;
+}
+footer p{
+  font-family: 'Manrope', sans-serif;
+  font-size: 14px;
+  color: #D9DBE1;
+  padding-bottom: 43px;
 }
