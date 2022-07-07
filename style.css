@@ -121,11 +121,12 @@ p {
   margin-bottom: 30px;
   font-size: 18px;
 }
-::placeholder{
+
+/*::placeholder{
   color: #B3B3B3;
   opacity: 1;
   font-size: 18px;
-}
+}*/
 
 .plan{
   width: 100%;
