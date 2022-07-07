@@ -29,7 +29,7 @@ h2 {
 }
 
 h1,
-h2,
+h2,h3,
 h5 {
   font-family: "Inter", sans-serif;
   font-weight: 700;
@@ -176,9 +176,41 @@ p {
   padding: 25px;
   
 }
-
+.about-us .center{
+  width: 70%;
+}
+.about-us .center p{
+  text-align: justify;
+}
+#counts{
+  /* margin-top: 100px; */
+  width: 70%;
+  margin: 80px auto 50px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#counts i{
+  margin-bottom: 30px;
+  
+}
+#counts h3{
+  font-size: 39px;
+}
+.about-us h4{
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+.gallery{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
 .get-update p{
   margin-bottom: 50px;
+  margin-top: 30px;
+  padding: 20px;
 }
 .form{
   width: 809px;
