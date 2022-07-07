@@ -11,6 +11,10 @@ section{
   margin-bottom: 130px;
   /* border: 2px solid red; */
 }
+span{
+  font-weight: 700;
+  font-size: 20px;
+}
 .center {
   margin: auto;
   width: 60%;
