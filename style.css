@@ -203,7 +203,10 @@ p {
   margin-bottom: 30px;
 }
 .gallery{
+  width: 50%;
+  margin: 0px auto;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
 }
